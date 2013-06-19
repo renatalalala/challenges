@@ -1,0 +1,12 @@
+<div>
+
+
+<%= erb :_delete %>
+
+<form action="/delete/<%= @note.id%>" method="post">
+  <input name="_method" type="hidden" value="delete" />
+  <input type="submit" value="Delete">
+</form>
+
+ <a class="create_deck" href="/"><button>JK, I want to keep this note</button></a>
+</div>

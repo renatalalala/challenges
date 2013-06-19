@@ -1,0 +1,107 @@
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  line-height: 40px;
+}
+
+.brand a{
+  font-family: "Lato", Verdana, sans-serif;
+  font-size: 30pt;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.brand a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.marketing {
+  padding: 12px;
+  margin: 1em 0;
+  background-color: gray;
+
+}
+
+.marketing p {
+  color: white;
+}
+
+.features div:first-child {
+  display: inline-block;
+  width: 335px;
+  border-right: 1px solid black;
+  margin-left: 15px;
+  padding-right: 10px;
+}
+
+.features div:nth-child(2) {
+  display: inline-block;
+  width: 335px;
+  border-right: 1px solid black;
+  margin-left: 15px;
+  padding-right: 10px;
+}
+
+
+.features div:nth-child(3) {
+  display: inline-block;
+  width: 340px;
+  margin-left: 15px;
+  padding-right: 10px;
+}
+
+nav ul {
+  margin-top: 0;
+  list-style-type: none;
+  width: 300px;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  line-height: 50px;
+  padding-right: 20px;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #ff0;
+}
+
+nav {
+  float:right;
+  width: 300px
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black
+}

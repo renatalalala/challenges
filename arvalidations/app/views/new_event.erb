@@ -1,0 +1,21 @@
+<div>
+<h3>Create new event</h3>
+
+<form id="new_event" action="/event/create" method="post">
+  Name:<input type="text" name="name[organizer_name]">
+  Email:<input type"email" name="email[organizer_email]"><br>
+  Title:<input type="text" name="title[title]" >
+  Date:<input type="date" name="date[date]">
+  <input type="submit" value="submit">
+</form>
+</div>
+
+<%if @errors%>
+<h3>Please correct the following errors to continue:</h3>
+
+<ol>
+<% @errors.each do |message| %>
+<li><%= message %></li><br>
+<% end %>
+</ol>
+<%end%>
